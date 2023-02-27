@@ -1,4 +1,5 @@
 function defineSuit(card) {
+    
     if(card.slice(-1) === '♣'){
       return 'clubs'
     }else if(card.slice(-1) === '♦'){
@@ -8,4 +9,5 @@ function defineSuit(card) {
     } else if(card.slice(-1) === '♠'){
     return 'spades' 
   }
+  
   }
