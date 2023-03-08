@@ -1,0 +1,1 @@
+const squareSum = (numbers) =>  (numbers.map(i => i**2)).reduce((acc, cur) => cur + acc, 0);
