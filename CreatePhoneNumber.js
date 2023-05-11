@@ -1,0 +1,1 @@
+const createPhoneNumber = numbers => numbers.reduce((p,c) => p.replace('x',c), "(xxx) xxx-xxxx");
