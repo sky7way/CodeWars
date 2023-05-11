@@ -1,0 +1,1 @@
+const breakChocolate = (n, m) => Math.max(0, m*n - 1);
