@@ -1,0 +1,1 @@
+const persistence = num => num > 9 ? 1 + persistence([...`${num}`].reduce((pre, val) => pre * val)) : 0;
